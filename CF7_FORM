@@ -1,0 +1,28 @@
+[dynamic_hidden post-name "CF7_get_post_var key='title'"]
+[dynamic_hidden URL "CF7_URL"]
+
+    [dynamic_hidden url_slug "CF7_URL part='query'"]
+    [group courses1] Onshape 挖土機課程 [/group]
+    [group courses2] Onshape 凸輪玩具課程 [/group]
+    [group courses] Onshape 標準課程[/group]
+
+<div class="flex-container" style="margin-bottom:30px">
+     <div class="flex-item"> 你的姓名* (必填) [text* your-name] </div>
+     <div class="flex-item"> 是否為桂源科技 Onshape 客戶* (必填) [select* RegInfoSrc "" "是" "否" ] </div>
+     <div class="flex-item"> 公司/學校* (必填) [text* company] </div>
+     <div class="flex-item"> 職稱 [text job-title] </div>
+
+     <div class="flex-item"> 電子信箱* (必填) [email* your-email autocomplete:email] </div>
+     <div class="flex-item"> 聯絡電話* (必填) [tel* phone] </div>
+     <div class="flex-item"> Line ID or WeChat ID [text line-ID] </div>
+
+     <div class="flex-item"> 獲得報名資訊來源* (必填) [select* RegInfoSrc "" "桂源官方網站" "Facebook(Meta)" "Line" "Email通知" "自行網路搜尋" "親朋好友推薦" "其他"] </div>
+     <div class="flex-item" > Onshape帳號[text your-onshape] </div>
+     <div class="flex-item" > 留言給我們[textarea message]  </div>
+
+</div>
+
+
+[submit "傳送"]
+
+[response]
