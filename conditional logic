@@ -1,0 +1,3 @@
+show [courses] if [url_slug] equals "class_code=2"
+show [courses1] if [url_slug] equals "class_code=1"
+show [courses2] if [url_slug] equals "class_code=0"
