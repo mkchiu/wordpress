@@ -1,0 +1,75 @@
+
+/*--- 2 Column Form Styles Start ---*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.flex-item {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.column {
+  float: left;
+  column-gap: 10px;
+}
+
+.left, .right {
+  width: 30%;
+}
+
+.middle {
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#left {
+    width: 47%;
+    float: left;
+    margin-right:6%;
+}
+ 
+#right {
+    width: 47%;
+    float: left;
+}
+ 
+.clearfix:after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+ 
+.clearfix {
+    display:block;
+}
+
+/*--- 2 Column Form Styles End ---*/
